@@ -72,7 +72,7 @@ module ConnectFour
                 row_values.push(@board_matrix[col][row])
             end
 
-            if @board_matrix[col].count("\u{1F535}") > 3
+            if row_values.count("\u{1F535}") > 3
                 return false
             end
 

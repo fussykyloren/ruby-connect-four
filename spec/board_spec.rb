@@ -48,10 +48,10 @@ module ConnectFour
             end
             it "returns 1 if this completes 4 in a row" do
                 board = Board.new
+                board.insert_chip(4, "\u{1F534}")
                 board.insert_chip(3, "\u{1F534}")
                 board.insert_chip(2, "\u{1F534}")
-                board.insert_chip(1, "\u{1F534}")
-                expect(board.insert_chip(0, "\u{1F534}")).to eql(1)
+                expect(board.insert_chip(1, "\u{1F534}")).to eql(1)
             end
             it "returns 1 if this completes 4 in a diagonal" do
                 board = Board.new
