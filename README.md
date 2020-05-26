@@ -4,9 +4,11 @@
 - [Status](https://github.com/fussykyloren/ruby-connect-four#status)
 - [Instructions](https://github.com/fussykyloren/ruby-connect-four#instructions)
 ## Information
-Here's a new game for you! Play Connect Four straight from your console! All the files you will need to run this are in this repository with the instructions in the instructions section. This program is built using Ruby v2.6.3p62.
+Here's a new game for you! Play Connect Four straight from your console! All the files you will need to run this are in this repository with the instructions in the instructions section. This program is built using Ruby v2.6.3p62. Lastly, you can run the game on repl.it! Just click below.
+
+[![Run on Repl.it](https://repl.it/badge/github/fussykyloren/ruby-connect-four)](https://repl.it/github/fussykyloren/ruby-connect-four)
 ## Status
-At this time, the project is __NOT *finished*__.
+At this time, the project is __*finished*__.
 ## Instructions
 To run these programs, Ruby v2.6.3p62 (or a compatible version) will need to be installed. To check the version of ruby you are using, run this command in terminal:
 ```
