@@ -28,12 +28,12 @@ module ConnectFour
             it "switches the current token color to red" do
                 players = Players.new("Kylo", "Rey")
                 players.switch_player
-                expect(players.current_token).to eql("R")
+                expect(players.current_token).to eql("\u{1F534}")
             end
             it "switches the current token color to black" do
                 players = Players.new("Kylo","Rey")
                 2.times { players.switch_player }
-                expect(players.current_token).to eql("B")
+                expect(players.current_token).to eql("\u{1F49B}")
             end
         end
     end

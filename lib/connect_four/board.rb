@@ -25,7 +25,7 @@ module ConnectFour
                 print row_seperator
             end
 
-            puts " 1  2  3  4  5  6  7 "
+            puts " 1 2 3 4 5 6 7 "
         end
 
         def is_draw?
