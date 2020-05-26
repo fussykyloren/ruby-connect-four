@@ -8,7 +8,7 @@ module ConnectFour
                 players = Players.new("Kylo","Rey")
                 expect(players.current_player).to eql("Kylo")
             end
-            it "sets the first player's token color to black" do
+            it "sets the first player's token color to red" do
                 players = Players.new("Kylo", "Rey")
                 expect(players.current_token).to eql("\u{1F534}")
             end
@@ -25,15 +25,15 @@ module ConnectFour
                 2.times { players.switch_player }
                 expect(players.current_player).to eql("Kylo")
             end
-            it "switches the current token color to red" do
+            it "switches the current token color to yellow" do
                 players = Players.new("Kylo", "Rey")
                 players.switch_player
-                expect(players.current_token).to eql("\u{1F534}")
+                expect(players.current_token).to eql("\u{1F49B}")
             end
-            it "switches the current token color to black" do
+            it "switches the current token color to red" do
                 players = Players.new("Kylo","Rey")
                 2.times { players.switch_player }
-                expect(players.current_token).to eql("\u{1F49B}")
+                expect(players.current_token).to eql("\u{1F534}")
             end
         end
     end
